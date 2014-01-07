@@ -1,0 +1,153 @@
+size 1440 900
+# size 500 500
+camera 0 0 0 0 0 -3 0 1 0 36.87
+
+output test-7_balls.png
+#antialiasmode 1
+
+
+directional  0.57735027 -0.57735027 -0.57735027 1 1 1
+directional -0.57735027  0.57735027  0.57735027 1 1 1
+
+#maxdepth 7
+maxdepth 5
+#Sampling rate is for anti aliasing
+#samplingRate 3
+
+#Center ball
+pushTransform
+ambient 0.1  0.1  0.1
+diffuse 1.0 0.0 0.0
+specular 1.0 1.0 1.0
+#reflection 0.9
+shininess 50
+translate 0.  0. -17.
+sphere 0 0 0  2.0
+
+popTransform
+
+#top green ball
+pushTransform
+ambient 0.1  0.1  0.1
+diffuse 0.0 1.0 0.0
+specular 1.0 1.0 1.0
+#reflection 0.9
+shininess 100
+translate  0.   4. -17. 
+sphere 0 0 0 1.5
+popTransform
+
+#bottom blue ball
+pushTransform
+ambient 0.1  0.1  0.1
+diffuse 0.0 0.0 1.0
+specular 1.0 1.0 1.0
+#reflection 0.9
+shininess 50
+translate 0.  -4. -17.
+sphere 0 0 0 1.5
+popTransform
+
+#right yellow
+pushTransform
+ambient 0.1  0.1  0.1
+diffuse 1.0 1.0 0.0
+specular 1.0 1.0 1.0
+#reflection 0.9
+shininess 50
+translate  4.   0. -17.
+sphere 0 0 0 1.5
+popTransform
+
+#left cyan 
+pushTransform
+ambient 0.1  0.1  0.1
+diffuse 0.0 1.0 1.0
+specular 1.0 1.0 1.0
+#reflection 0.9
+shininess 50
+translate -4.   0. -17.
+sphere 0 0 0 1.5
+popTransform
+
+#nw purple
+pushTransform
+ambient 0.1  0.1  0.1
+diffuse 1.0 0.0 1.0
+specular 1.0 1.0 1.0
+#reflection 0.9
+shininess 50
+translate -2.3  2.3 -17.
+#sphere 0 0 0 0.9
+popTransform
+
+#sw orange
+pushTransform
+ambient 0.1  0.1  0.1
+diffuse 1.0 0.5 0.0
+specular 1.0 1.0 1.0
+#reflection 0.9
+shininess 50
+translate -2.3  -2.3 -17.
+#sphere 0 0 0 0.9
+popTransform
+
+#ne blueish
+pushTransform
+ambient 0.1  0.1  0.1
+diffuse 0.0 0.5 1.0
+specular 1.0 1.0 1.0
+#reflection 0.9
+shininess 50
+translate 2.3  2.3 -17.
+#sphere 0 0 0 0.9
+popTransform
+
+#se grey
+pushTransform
+ambient 0.1  0.1  0.1
+diffuse 0.5 0.5 0.5
+specular 1.0 1.0 1.0
+#reflection 0.9
+shininess 50
+translate 2.3  -2.3 -17.
+#sphere 0 0 0 0.9
+popTransform
+
+pushTransform
+ambient 0 0 0
+diffuse 0 0 0
+specular 1.0 1.0 1.0
+#refraction 0.8 0.8 0.8 2
+shininess 150
+translate 1.5  1.5 -12.
+scale 1 1 1.5
+sphere 0 0 0 1.5
+popTransform
+
+pushTransform
+ambient 0  0  0
+diffuse 0 0 0
+specular 1.0 1.0 1.0
+#refraction 0.8 0.8 0.8 2
+shininess 150
+translate -1.5  -1.5 -12.
+scale 1 1 1.5
+sphere 0 0 0 1.5
+popTransform
+
+maxverts 4
+
+vertex -1 1 -1
+vertex -1 -1 -1
+vertex 1 -1 -1
+vertex 1 1 -1
+
+diffuse 0.3 0.0 0.0
+specular 0 0 0
+
+pushTransform
+scale 20 0 20
+tri 0 1 2
+tri 2 3 0
+popTransform
