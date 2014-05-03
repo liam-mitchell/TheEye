@@ -4,6 +4,7 @@ Usage: on the command line, enter "raytracer.exe <path to scene file>". Sample s
 Release/Images and Scene Files, as well as images produced by many of those scene files (and a small Python script
 written to generate the RGB color cube scene).
 
+To compile and test the code on your own machine, just go to the /src directory and invoke make, then invoke the TheEye program created in the directory.
 -----------------------------
 
 PARSING:

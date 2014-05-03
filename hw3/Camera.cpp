@@ -1,5 +1,6 @@
 #include "Camera.h"
 #include "Mat4.h"
+#include <cmath>
 
 // Camera()
 // params: 10 floats - 3 vec3s (position, lookat, up) and fovy in degrees
@@ -25,7 +26,7 @@ Camera::Camera(float posx, float posy, float posz, float lookatx, float lookaty,
 
 Ray Camera::generateRay(const Sample &s, const float aspect)
 {
-	float y_scale = tan(radians(m_fovy) / 2);
+	float y_scale = std::tan(radians(m_fovy) / 2);
 	float x_scale = y_scale * aspect;
 
 	float a = x_scale * s.x;

@@ -1,5 +1,5 @@
 #include "Image.h"
-#include "C:/Users/Liam/My Documents/Visual Studio 2012/Projects/hw3/include/FreeImage.h"
+#include "FreeImage.h"
 #include <iostream>
 
 
