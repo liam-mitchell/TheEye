@@ -2,7 +2,6 @@
 #include "FreeImage.h"
 #include <iostream>
 
-
 Image::Image(const int width, const int height):m_width(width), m_height(height)
 {
 	m_colors = new Color[width * height];
@@ -10,7 +9,10 @@ Image::Image(const int width, const int height):m_width(width), m_height(height)
 
 Image::Image(const Image &rhs):m_width(rhs.m_width), m_height(rhs.m_height)
 {
-	if (m_colors) delete [] m_colors;
+	if (m_colors) {
+		delete [] m_colors;
+		m_colors = nullptr;
+	}
 	if (rhs.m_colors) m_colors = new Color[m_width * m_height];
 
 	for (int j = 0; j < m_height; ++j)
@@ -28,7 +30,7 @@ Image::Image(const Image &rhs):m_width(rhs.m_width), m_height(rhs.m_height)
 // notes: both use the (nothrow) swap friend function - exception-safe
 
 
-Image::Image(Image &&rhs)
+Image::Image(Image &&rhs):m_colors(0), m_width(0), m_height(0)
 {
 	swap(*this, rhs);
 }

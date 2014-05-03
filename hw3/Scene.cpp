@@ -3,6 +3,7 @@
 #include "Primitive.h"
 #include "Light.h"
 #include <iostream>
+#include <thread>
 
 Scene::Scene(const Camera &cam, const int width, const int height)
 {
@@ -59,4 +60,25 @@ Image Scene::render()
 	}
 
 	return image;
+}
+
+void Scene::partialRender(Image &image, int x, int y, int width, int height) {
+	Raytracer rt;
+	int pixels = width * height;
+
+	for (int j = y; j < y + height; ++j) {
+		if (j % 10 == 0) {
+			std::cout << "Pixel " << (j - y) * width << " of " << pixels << " traced in thread " << std::this_thread::get_id() << '\n';
+		}
+		for (int i = x; i < x + width; ++i) {
+			Sample s = Sampler::sample(m_width, m_height, i + .5f, j + .5f);
+			Ray r = m_camera.generateRay(s, (float)m_width / m_height);
+			Color c = rt.trace(r, m_primitives, m_lights);
+			image.setPixel(i, j, c);
+		}
+	}
+}
+
+Image Scene::generateBlankImage() {
+	return Image(m_width, m_height);
 }
