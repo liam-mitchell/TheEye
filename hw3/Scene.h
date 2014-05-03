@@ -26,6 +26,10 @@ public:
 	void addObject(std::unique_ptr<Primitive> obj);
 	void addLight(std::unique_ptr<Light> light);
 	Image render();
+	void partialRender(Image &image, int x, int y, int width, int height);
+	Image generateBlankImage();
+	int width() {return m_width;}
+	int height() {return m_height;}
 
 	Camera &camera() {return m_camera;}
 

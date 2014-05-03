@@ -11,6 +11,7 @@
 typedef class Image 
 {
 public:
+	Image::Image():m_width(0), m_height(0), m_colors(0) {}
 	Image(const int width, const int height);
 	Image(const Image &rhs);
 	Image &operator=(Image rhs);
