@@ -1,0 +1,501 @@
+camera -5 5 0 -1 0 -8 0 1 0 50
+point 5 10 0 .75 .75 .75
+
+ambient .2 .2 .2
+
+diffuse .5 .5 .5
+specular 0 0 0
+shininess 1
+
+plane 0 1 0 0 -1 0
+
+vertex 0 -1 -5.8
+vertex 0 0.6 -5
+vertex 0.4 -1 -5.693
+
+vertex 0.4 -1 -5.693
+vertex 0 0.6 -5
+vertex 0.6928 -1 -5.4
+
+vertex 0.6928 -1 -5.4
+vertex 0 0.6 -5
+vertex 0.8 -1 -5
+
+vertex 0.8 -1 -5
+vertex 0 0.6 -5
+vertex 0.6928 -1 -4.6
+
+vertex 0.6928 -1 -4.6
+vertex 0 0.6 -5
+vertex 0.4 -1 -4.307
+
+vertex 0.4 -1 -4.307
+vertex 0 0.6 -5
+vertex 0 -1 -4.2
+
+vertex 0 -1 -4.2
+vertex 0 0.6 -5
+vertex -0.4 -1 -4.307
+
+vertex -0.4 -1 -4.307
+vertex 0 0.6 -5
+vertex -0.6928 -1 -4.6
+
+vertex -0.6928 -1 -4.6
+vertex 0 0.6 -5
+vertex -0.8 -1 -5
+
+vertex -0.8 -1 -5
+vertex 0 0.6 -5
+vertex -0.6928 -1 -5.4
+
+vertex -0.6928 -1 -5.4
+vertex 0 0.6 -5
+vertex -0.4 -1 -5.693
+
+vertex -0.4 -1 -5.693
+vertex 0 0.6 -5
+vertex 0 -1 -5.8
+pushTransform
+translate -2 0 0
+
+pushTransform
+translate 0 1 0
+
+diffuse 0 1 0
+specular 0 0 0
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+pushTransform
+translate 2 0 0
+
+pushTransform
+translate 0 1 0
+
+diffuse 0 1 0
+specular 0 0 0
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+pushTransform
+translate -2 0 -2
+
+pushTransform
+translate 0 1 0
+
+diffuse 0 1 0
+specular 0 0 0
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+pushTransform
+translate 2 0 -2
+
+pushTransform
+translate 0 1 0
+
+diffuse 0 1 0
+specular 0 0 0
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+pushTransform
+translate -2 0 -4
+
+pushTransform
+translate 0 1 0
+
+diffuse 0 1 0
+specular 0 0 0
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+pushTransform
+translate 2 0 -4
+
+pushTransform
+translate 0 1 0
+
+diffuse 0 1 0
+specular 0 0 0
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+pushTransform
+translate -2 0 -6
+
+pushTransform
+translate 0 1 0
+
+diffuse 0 1 0
+specular 0 0 0
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+pushTransform
+translate 2 0 -6
+
+pushTransform
+translate 0 1 0
+
+diffuse 0 1 0
+specular 0 0 0
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+pushTransform
+translate -2 0 -8
+
+pushTransform
+translate 0 1 0
+
+diffuse 0 1 0
+specular 0 0 0
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+pushTransform
+translate 2 0 -8
+
+pushTransform
+translate 0 1 0
+
+diffuse 0 1 0
+specular 0 0 0
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+vertex 0 1 0
+vertex -.25 .5 -.75
+vertex -.25 .5 .75
+vertex .25 .5 .75
+vertex .25 .5 -.75
+
+pushTransform
+translate 0 -1 -5
+
+diffuse .2 .2 .2
+specular 1 1 1
+shininess 50
+
+tri 36 38 37 
+tri 36 39 38
+tri 36 40 39
+tri 36 37 40
+
+diffuse 0 0 0
+specular 0 0 0
+shininess 1
+
+sphere -.25 .25 -.5 .25
+sphere -.25 .25 .5 .25
+sphere .25 .25 .5 .25
+sphere .25 .25 -.5 .25
+
+popTransform

@@ -1,10 +1,18 @@
 Welcome to The Eye raytracer demo!
 
-Usage: on the command line, enter "raytracer.exe <path to scene file>". Sample scene files are provided in
-Release/Images and Scene Files, as well as images produced by many of those scene files (and a small Python script
-written to generate the RGB color cube scene).
+Usage: TheEye <scene file>
+Example usage: ./TheEye scenes/scene1.txt
+
+You can steer the camera using the arrow keys. On simple scenes this will go reasonably quickly.
+
+To take a screenshot of the current display, press the '3' key at any time. The screenshots are saved to screenshot1.jpg ... screenshotN.jpg.
+
+To test the depth-of-field feature, press the '2' key. This will change the rendering to use four depth-of-field rays in order to give you a real-time-ish idea of what the screenshot will look like. You can set the aperture width with the left and right keys, and the focal length with the up and down keys. When taking a screenshot in this mode, the depth-of-field ray count will be set to 64 for the screenshot. (Note that this can take some time - around 10-20 seconds for the scenes provided.)
 
 To compile and test the code on your own machine, just go to the /src directory and invoke make, then invoke the TheEye program created in the directory.
+
+The example screenshots were taken from scene1.txt (scene1.jpg), scene2.txt (scene2.jpg), trees.txt (trees.jpg), and scene3.txt (dofN.jpg). The four depth-of-field screenshots serve to illustrate different focal lengths and aperture widths.
+
 -----------------------------
 
 PARSING:
@@ -24,6 +32,7 @@ The scene description language parsed by the raytracer implements the following 
 - maxverts number: Defines a maximum number of vertices for later triangle specifications. It must be set before vertices are defined. (Your program may not need this; it is simply a convenience to allocate arrays accordingly. You can ignore this command [but still parse it] if you don't need it).
 - vertex x y z: Defines a vertex at the given location. The vertex is put into a pile, starting to be numbered at 0.
 - tri v1 v2 v3 Create a triangle out of the vertices involved (which have previously been specified with the vertex command). The vertices are assumed to be specified in counter-clockwise order. Your code should internally compute a face normal for this triangle.
+- plane n0 n1 n2 v0 v1 v2 Create a plane using normal (n0, n1, n2) and point (v0, v1, v2).
 
 
 - translate: x y z A translation 3-vector.

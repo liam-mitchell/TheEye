@@ -1,0 +1,2213 @@
+camera 0 0 0 0 0 -1 0 1 0 50
+point 5 10 0 .75 .75 .75
+
+ambient .2 .2 .2
+
+diffuse .5 .5 .5
+specular 0 0 0
+shininess 1
+
+plane 0 1 0 0 -1 0
+
+vertex 0 -1 -5.8
+vertex 0 0.6 -5
+vertex 0.4 -1 -5.693
+
+vertex 0.4 -1 -5.693
+vertex 0 0.6 -5
+vertex 0.6928 -1 -5.4
+
+vertex 0.6928 -1 -5.4
+vertex 0 0.6 -5
+vertex 0.8 -1 -5
+
+vertex 0.8 -1 -5
+vertex 0 0.6 -5
+vertex 0.6928 -1 -4.6
+
+vertex 0.6928 -1 -4.6
+vertex 0 0.6 -5
+vertex 0.4 -1 -4.307
+
+vertex 0.4 -1 -4.307
+vertex 0 0.6 -5
+vertex 0 -1 -4.2
+
+vertex 0 -1 -4.2
+vertex 0 0.6 -5
+vertex -0.4 -1 -4.307
+
+vertex -0.4 -1 -4.307
+vertex 0 0.6 -5
+vertex -0.6928 -1 -4.6
+
+vertex -0.6928 -1 -4.6
+vertex 0 0.6 -5
+vertex -0.8 -1 -5
+
+vertex -0.8 -1 -5
+vertex 0 0.6 -5
+vertex -0.6928 -1 -5.4
+
+vertex -0.6928 -1 -5.4
+vertex 0 0.6 -5
+vertex -0.4 -1 -5.693
+
+vertex -0.4 -1 -5.693
+vertex 0 0.6 -5
+vertex 0 -1 -5.8
+
+pushTransform
+translate -2 0 0
+
+pushTransform
+translate 0 1 0
+
+diffuse 0 1 0
+specular .1 .1 .1
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+pushTransform
+translate -2 0 -2
+
+pushTransform
+translate 0 1 0
+
+diffuse 0 1 0
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+pushTransform
+translate -2 0 -4
+
+pushTransform
+translate 0 1 0
+
+diffuse 0 1 0
+specular .1 .1 .1
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+pushTransform
+translate -2 0 -6
+
+pushTransform
+translate 0 1 0
+
+diffuse 0 1 0
+specular .1 .1 .1
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+pushTransform
+translate -2 0 -8
+
+pushTransform
+translate 0 1 0
+
+diffuse 0 1 0
+specular .1 .1 .1
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+pushTransform
+translate -2 0 -10
+
+pushTransform
+translate 0 1 0
+
+diffuse 0 1 0
+specular .1 .1 .1
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+pushTransform
+translate -2 0 -12
+
+pushTransform
+translate 0 1 0
+
+diffuse 0 1 0
+specular .1 .1 .1
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+pushTransform
+translate -2 0 -14
+
+pushTransform
+translate 0 1 0
+
+diffuse 0 1 0
+specular .1 .1 .1
+shininess 200
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+pushTransform
+translate -2 0 -16
+
+pushTransform
+translate 0 1 0
+
+diffuse 0 1 0
+specular .1 .1 .1
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+pushTransform
+translate -2 0 -18
+
+pushTransform
+translate 0 1 0
+
+diffuse 0 1 0
+specular .1 .1 .1
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+pushTransform
+translate -2 0 -20
+
+pushTransform
+translate 0 1 0
+
+diffuse 0 1 0
+specular .1 .1 .1
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+pushTransform
+translate -2 0 -22
+
+pushTransform
+translate 0 1 0
+
+diffuse 0 1 0
+specular .1 .1 .1
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+pushTransform
+translate -2 0 24
+
+pushTransform
+translate 0 1 0
+
+diffuse 0 1 0
+specular .1 .1 .1
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+pushTransform
+translate -2 0 -26
+
+pushTransform
+translate 0 1 0
+
+
+diffuse 0 1 0
+specular .1 .1 .1
+shininess 200
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+pushTransform
+translate -2 0 -28
+
+pushTransform
+translate 0 1 0
+
+diffuse 0 1 0
+specular .1 .1 .1
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+pushTransform
+translate -2 0 -30
+
+pushTransform
+translate 0 1 0
+
+diffuse 0 1 0
+specular .1 .1 .1
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+pushTransform
+translate -2 0 -32
+
+pushTransform
+translate 0 1 0
+
+diffuse 0 1 0
+specular .1 .1 .1
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+pushTransform
+translate -2 0 -34
+
+pushTransform
+translate 0 1 0
+
+diffuse 0 1 0
+specular .1 .1 .1
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+pushTransform
+translate -2 0 -36
+
+pushTransform
+translate 0 1 0
+
+diffuse 0 1 0
+specular .1 .1 .1
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+pushTransform
+translate -2 0 -38
+
+pushTransform
+translate 0 1 0
+
+diffuse 0 1 0
+specular .1 .1 .1
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+pushTransform
+translate -2 0 -40
+
+pushTransform
+translate 0 1 0
+
+diffuse 0 1 0
+specular .1 .1 .1
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+pushTransform
+translate -2 0 -42
+
+pushTransform
+translate 0 1 0
+
+diffuse 0 1 0
+specular .1 .1 .1
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+pushTransform
+translate -2 0 -44
+
+pushTransform
+translate 0 1 0
+
+diffuse 0 1 0
+specular .1 .1 .1
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+pushTransform
+translate -2 0 -46
+
+pushTransform
+translate 0 1 0
+
+diffuse 0 1 0
+specular .1 .1 .1
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+pushTransform
+translate -2 0 -48
+
+pushTransform
+translate 0 1 0
+
+diffuse 0 1 0
+specular .1 .1 .1
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+pushTransform
+translate -2 0 -50
+
+pushTransform
+translate 0 1 0
+
+diffuse 0 1 0
+specular .1 .1 .1
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+
+pushTransform
+translate 2 0 0
+
+pushTransform
+translate 2 1 0
+
+diffuse 0 1 0
+specular .1 .1 .1
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+pushTransform
+translate 2 0 -2
+
+pushTransform
+translate 2 1 0
+
+diffuse 0 1 0
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+pushTransform
+translate 2 0 -4
+
+pushTransform
+translate 2 1 0
+
+diffuse 0 1 0
+specular .1 .1 .1
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+pushTransform
+translate 2 0 -6
+
+pushTransform
+translate 2 1 0
+
+diffuse 0 1 0
+specular .1 .1 .1
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+pushTransform
+translate 2 0 -8
+
+pushTransform
+translate 2 1 0
+
+diffuse 0 1 0
+specular .1 .1 .1
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+pushTransform
+translate 2 0 -10
+
+pushTransform
+translate 2 1 0
+
+diffuse 0 1 0
+specular .1 .1 .1
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+pushTransform
+translate 2 0 -12
+
+pushTransform
+translate 2 1 0
+
+diffuse 0 1 0
+specular .1 .1 .1
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+pushTransform
+translate 2 0 -14
+
+pushTransform
+translate 2 1 0
+
+diffuse 0 1 0
+specular .1 .1 .1
+shininess 200
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+pushTransform
+translate 2 0 -16
+
+pushTransform
+translate 2 1 0
+
+diffuse 0 1 0
+specular .1 .1 .1
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+pushTransform
+translate 2 0 -18
+
+pushTransform
+translate 2 1 0
+
+diffuse 0 1 0
+specular .1 .1 .1
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+pushTransform
+translate 2 0 -20
+
+pushTransform
+translate 2 1 0
+
+diffuse 0 1 0
+specular .1 .1 .1
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+pushTransform
+translate 2 0 -22
+
+pushTransform
+translate 2 1 0
+
+diffuse 0 1 0
+specular .1 .1 .1
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+pushTransform
+translate 2 0 24
+
+pushTransform
+translate 2 1 0
+
+diffuse 0 1 0
+specular .1 .1 .1
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+pushTransform
+translate 2 0 -26
+
+pushTransform
+translate 2 1 0
+
+
+diffuse 0 1 0
+specular .1 .1 .1
+shininess 200
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+pushTransform
+translate 2 0 -28
+
+pushTransform
+translate 2 1 0
+
+diffuse 0 1 0
+specular .1 .1 .1
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+pushTransform
+translate 2 0 -30
+
+pushTransform
+translate 2 1 0
+
+diffuse 0 1 0
+specular .1 .1 .1
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+pushTransform
+translate 2 0 -32
+
+pushTransform
+translate 2 1 0
+
+diffuse 0 1 0
+specular .1 .1 .1
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+pushTransform
+translate 2 0 -34
+
+pushTransform
+translate 2 1 0
+
+diffuse 0 1 0
+specular .1 .1 .1
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+pushTransform
+translate 2 0 -36
+
+pushTransform
+translate 2 1 0
+
+diffuse 0 1 0
+specular .1 .1 .1
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+pushTransform
+translate 2 0 -38
+
+pushTransform
+translate 2 1 0
+
+diffuse 0 1 0
+specular .1 .1 .1
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+pushTransform
+translate 2 0 -40
+
+pushTransform
+translate 2 1 0
+
+diffuse 0 1 0
+specular .1 .1 .1
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+pushTransform
+translate 2 0 -42
+
+pushTransform
+translate 2 1 0
+
+diffuse 0 1 0
+specular .1 .1 .1
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+pushTransform
+translate 2 0 -44
+
+pushTransform
+translate 2 1 0
+
+diffuse 0 1 0
+specular .1 .1 .1
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+pushTransform
+translate 2 0 -46
+
+pushTransform
+translate 2 1 0
+
+diffuse 0 1 0
+specular .1 .1 .1
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+pushTransform
+translate 2 0 -48
+
+pushTransform
+translate 2 1 0
+
+diffuse 0 1 0
+specular .1 .1 .1
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+pushTransform
+translate 2 0 -50
+
+pushTransform
+translate 2 1 0
+
+diffuse 0 1 0
+specular .1 .1 .1
+shininess 200
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform
+
+diffuse .6 .3 .1
+
+tri 0 1 2
+tri 3 4 5
+tri 6 7 8
+tri 9 10 11
+tri 12 13 14
+tri 15 16 17
+tri 18 19 20
+tri 21 22 23
+tri 24 25 26
+tri 27 28 29
+tri 30 31 32
+tri 33 34 35
+
+popTransform

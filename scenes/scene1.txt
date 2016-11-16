@@ -1,0 +1,133 @@
+# ============================================================
+# Scene One for Ray Tracing
+# CPSC 453 - Assignment #4 - Winter 2016
+#
+# This file contains the geometry of the scene only.
+# No materials are specified.
+#
+# Instructions for reading this file:
+#   - lines beginning with ‘#’ are comments
+#   - all objects are expressed in the camera reference frame
+#   - objects are described with the following parameters:
+#      - point light source has a single position
+#      - sphere has a centre and radius
+#      - plane has a unit normal and a point on the plane
+#      - #triangle has positions of its three corners, in
+#        counter-clockwise order
+#   - syntax of the object specifications are as follows:
+#
+#      light    { x  y  z  }
+#      sphere   { x  y  z   r }
+#      plane    { xn yn zn  xq yq zq }
+#      #triangle { x1 y1 z1  x2 y2 z2  x3 y3 z3 }
+#
+# Feel free to modify or extend this scene file to your desire
+# as you complete your ray tracing system.
+# ============================================================
+
+camera 0 0 0 0 0 -1 0 1 0 50
+#dof .5 6.69
+
+point 0 2.5 -7.75 1 1 1
+
+ambient 0.2 0.2 0.2
+
+diffuse 0.5 0.5 0.5
+specular .8 .8 .8
+shininess 200
+
+sphere 0.9 -1.925 -6.69 0.825
+
+# Blue pyramid
+
+diffuse 0 1 1
+specular 0.1 0.1 0.1
+shininess 10
+
+vertex -0.4 -2.75 -9.55
+vertex -0.93 0.55 -8.51
+vertex 0.11 -2.75 -7.98
+
+tri 0 1 2
+
+vertex 0.11 -2.75 -7.98
+vertex -0.93 0.55 -8.51
+vertex -1.46 -2.75 -7.47
+
+tri 3 4 5
+
+vertex -1.46 -2.75 -7.47
+vertex -0.93 0.55 -8.51
+vertex -1.97 -2.75 -9.04
+
+tri 6 7 8
+
+vertex -1.97 -2.75 -9.04
+vertex -0.93 0.55 -8.51
+vertex -0.4 -2.75 -9.55
+
+tri 9 10 11
+
+# Ceiling
+
+diffuse 1 1 1
+specular 0 0 0 
+shininess 200
+
+vertex 2.75 2.75 -10.5
+vertex 2.75 2.75 -5
+vertex -2.75 2.75 -5
+
+vertex -2.75 2.75 -10.5
+vertex 2.75 2.75 -10.5
+vertex -2.75 2.75 -5
+
+tri 12 13 14
+tri 15 16 17
+
+# Green wall on right 
+
+diffuse 0 1 0
+
+vertex 2.75 2.75 -5
+vertex 2.75 2.75 -10.5
+vertex 2.75 -2.75 -10.5
+
+vertex 2.75 -2.75 -5
+vertex 2.75 2.75 -5
+vertex 2.75 -2.75 -10.5
+
+tri 18 19 20
+tri 21 22 23
+
+diffuse .75 0 0
+
+# Red wall on left
+vertex -2.75 -2.75 -5
+vertex -2.75 -2.75 -10.5
+vertex -2.75 2.75 -10.5
+
+tri 24 25 26
+
+vertex -2.75 2.75 -5
+vertex -2.75 -2.75 -5
+vertex -2.75 2.75 -10.5
+
+tri 27 28 29
+
+diffuse 0.5 0.5 0.5
+
+vertex 2.75 -2.75 -5
+vertex 2.75 -2.75 -10.5
+vertex -2.75 -2.75 -10.5
+
+tri 30 31 32
+
+vertex -2.75 -2.75 -5
+vertex 2.75 -2.75 -5
+vertex -2.75 -2.75 -10.5
+
+tri 33 34 35
+
+# Back wall
+plane 0 0 1 0 0 -10.5
